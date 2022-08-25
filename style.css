@@ -85,6 +85,7 @@ body {
     width: 25%;
     height: 300px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    bottom: 50px;
 }
 
 .lista ul {
@@ -96,4 +97,39 @@ body {
     height: 32px;
     width: 400px;
     padding: 5% 5%;
+}
+
+.pasta1 {
+    background-color: var(--bg-cards);
+    border-radius: 10px;
+    width: 38%;
+    height: 125px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    left: 350px;
+    bottom: 500px;
+}
+
+.texto1 {
+    display: inline-block;
+    top: 15px;
+    left: 20px;
+    font-size: 10px;
+    outline: 1px solid green;
+}
+
+.texto2 {
+    display: inline-block;
+    padding: 5px;
+    font-size: 10px;
+    top: 20px;
+    left: 15px;
+    outline: 1px solid red;
+}
+
+.texto3 {
+    /* display: inline-block; */
+    width: 450px;
+    top: 20px;
+    left: 20px;
+    outline: 1px solid blue;
 }
