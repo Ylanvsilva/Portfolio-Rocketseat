@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     position: relative;
-    /* outline: 1px dashed black; */
 }
 
 body {
@@ -54,7 +53,7 @@ body {
     display: flex;
     background-color: var(--bg-cards);
     left: 350px;
-    max-width: 970px;
+    width: 1005px;
     padding: 15px 0px 15px 25px;
     bottom: 225px;
     border-radius: 10px;
@@ -114,7 +113,6 @@ body {
     top: 15px;
     left: 20px;
     font-size: 10px;
-    outline: 1px solid green;
 }
 
 .texto2 {
@@ -123,13 +121,94 @@ body {
     font-size: 10px;
     top: 20px;
     left: 15px;
-    outline: 1px solid red;
 }
 
 .texto3 {
-    /* display: inline-block; */
-    width: 450px;
-    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
     left: 20px;
-    outline: 1px solid blue;
+    top: 30px;
+}
+
+.texto4 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    right: 20px;
+    top: 4px;
+}
+
+.texto4 img {
+    height: 25px;
+}
+
+.pasta2 {
+    background-color: var(--bg-cards);
+    border-radius: 10px;
+    width: 38%;
+    height: 125px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    left: 860px;
+    bottom: 625px;
+}
+
+.post {
+    background-color: var(--bg-cards);
+    left: 350px;
+    width: 1005px;
+    padding: 15px 0px 15px 25px;
+    bottom: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.item1 {
+    right: 12px;
+    font-size: 30px;
+}
+
+.info {
+    background-color: var(--bg-cards);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 575px;
+    left: 350px;
+    height: 205px;
+    width: 1005px;
+}
+
+.info img {
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid hsla(152, 100%, 50%, 1);
+}
+
+.img {
+    margin: 10px 10px 10px 50px;
+}
+
+.details {
+    padding: 10px 10px 10px 10px;
+    margin: 40px ;
+    font-size: 12px;
+    word-spacing: 20px;
+}
+
+.tecnologia {
+    background-color: var(--bg-cards);
+    border-radius: 10px;
+    width: 25%;
+    height: 225px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    bottom: 550px;
+}
+
+.name_title {
+    font-size: 12px;
+    outline: 1px solid salmon;
+    margin: 0px 130px 10px 10px;
 }
