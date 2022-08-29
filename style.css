@@ -199,6 +199,7 @@ body {
 }
 
 .tecnologia {
+    border: 1px solid seagreen;
     background-color: var(--bg-cards);
     border-radius: 10px;
     width: 25%;
@@ -207,12 +208,31 @@ body {
     bottom: 550px;
 }
 
+.tecnologia .name {
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: row;
+}
+
 .name_title {
     font-size: 12px;
     outline: 1px solid salmon;
-    margin: 0px 130px 10px 10px;
+    margin: 0px 110px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .name {
-    background-color: #22212C;
+    border: 1px solid #CB92B1;
+    border-radius: 10px;
+    color: black;
+    background-color: var(--bg-techs);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    padding: 2px 2px;
+    margin: 2px 2px;
+    width: 136px;
+    height: 30px;
+}
+
+.name h2 {
+    font-size: 12px;
 }
