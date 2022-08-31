@@ -238,3 +238,74 @@ body {
     margin-right: 4px;
     margin-bottom: 12px;
 }
+
+.experiencias {
+    background-color: var(--bg-cards);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+    border-radius: 10px;
+    
+    height: 50%;
+    width: 25%;
+    bottom: 525px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.experiencias_titulo {
+    padding: 10px;
+    right: 15px;
+}
+
+.artigos section {
+    padding: 10px;
+}
+
+.educacao {
+    background-color: var(--bg-cards);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+    border-radius: 10px;
+
+    height: 50%;
+    width: 25%;
+    bottom: 500px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.educacao_titulo {
+    padding: 8px;
+    right: 50px;
+}
+
+.genero {
+    padding: 20px 125px 20px 20px;    
+}
+
+.genero section {
+    /* outline: 1px solid pink; */
+    padding: 10px;
+}
+
+.genero p {
+    font-size: 15px;
+}
+
+.genero li {
+    font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
